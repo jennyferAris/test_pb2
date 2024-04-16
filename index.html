@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plataforma Web</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Plataforma Web</h1>
-    <form action="#" method="post" enctype="multipart/form-data">
-        <label for="texto">Texto:</label>
-        <input type="text" id="texto" name="texto">
-        <br><br>
-        <label for="archivo">Archivo:</label>
-        <input type="file" id="archivo" name="archivo">
-        <br><br>
-        <input type="submit" value="Enviar">
-    </form>
+    <div class="container">
+        <label for="text-input">Texto:</label>
+        <input type="text" id="text-input" placeholder="Ingrese texto...">
+        <br>
+        <label for="file-input">Archivo:</label>
+        <input type="file" id="file-input">
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
